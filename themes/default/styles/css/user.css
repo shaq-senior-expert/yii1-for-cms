@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+
+/*表单样式 */
+.form_table textarea, 
+.form_table input[type="text"], 
+.form_table input[type='password'], 
+.form_table select { padding: 5px 2px; border: 1px solid; border-color: #666 #ccc #ccc #666; background: #F9F9F9; color: #333;  font-size: 14px}
+.form_table .button { -webkit-border-radius: 3px; border-radius: 3px; border: 1px solid #3079ED; background: #428BCA; color: #FFF; font: bold 12px arial, sans-serif; padding: 0.15em 1em; text-transform: uppercase; height: 27px; line-height: 19px; margin: 0; overflow: visible; width: auto; *width: 1;
+cursor: pointer }
+.form_table .btnBlue{ border: 1px solid #3079ED; background: #428BCA; color: #FFF; }
+.form_table .button .btnDefault{ border: 1px solid #3079ED; background: #428BCA; color: #FFF; }
+.form_table .first_title { padding-left:20px;}
+.form_table .operate, .submit { height: 45px }
+.form_table td a { color:#444444;}
+#chkall { margin-left:20px;}
+.form_table .right { float:right;}
+.form_table .cuspages { padding:10px 20px;}
+
+/* 个人中心 */
+.user { width:1170px; margin:0 auto; padding:40px 0; text-align:left; }
+.user_left { width:20%; float:left;  border:1px solid #DDDDDD;  border-radius:5px;}
+.left_menu dl { margin-bottom:10px; }
+.left_menu dl dt { padding-left:20px; background-color:#F7F7F7; font-weight:bold; font-size:18px; line-height:36px; }
+.left_menu dl dd { padding-left:50px; line-height:30px; font-size:14px; background:url(../images/ico_menu.gif) no-repeat 20px -135px;}
+.left_menu dd a { color:#444444;}
+.left_menu .selected { background-color:#5CB85C;}
+.left_menu .selected a { color:#FFFFFF;}
+.left_menu .ico_base { background-position-y:-160px;}
+.left_menu .ico_pwd{ background-position-y:-382px;}
+.left_menu .ico_email { background-position-y:-2254px;}
+.left_menu .ico_collect { background-position-y:-274px;}
+.left_menu .ico_attention { background-position-y:-849px;}
+.left_menu .ico_comment { background-position-y:-1651px;}
+.left_menu .ico_friend { background-position-y:-216px;}
+
+
+.user_right { width:70%; float:right; border:1px solid #DDDDDD; border-radius:5px; }
+.user_right .base_box { padding:20px; }
+.user_right .base_info { float:left; padding-left:20px;}
+.base_info li { line-height:33px; font-size:16px; font-weight:bold; }
+.base_info li label { width:100px; display:inline-block; font-weight:normal; }
+.base_info li span { font-size:12px;}
+.base_info li span a { color:#428bca;}
+.edit_btn { float:right; width:80px; height:32px; line-height:32px; background-color:#5CB85C; border-radius:3px; font-size:14px; color:#FFFFFF; text-align:center; }
+.fa_edit:before { content:"\f044"; }
+
+/* 个人空间 */
+.space_header { margin-bottom:10px;}
+.space_header h1 {font-size: 36px; font-weight: 400; margin-right: 35px; line-height:200%;}
+.space_header a { color:#444444; }
+.space_header .sign { font-style:italic;}
+.space_left { float:left; width:60%; border:1px solid #CCCCCC;}
+.space_left h2 { background:#DDDDDD; font-size:18px; line-height:33px; padding-left:20px;}
+.space_left .profile_list { padding:10px 20px;}
+.space_left .cc dt { float:left; width:90px;}
+.space_left .cc dd { float:right; width:460px;}
+.space_left .cc a { color:#428bca;}
+.space_right { float:right; width:30%; border:1px solid #CCCCCC;}
+.space_right .space_user_info { padding:25px 25px 20px;  text-align:center;}
+.space_right .space_user_info .name {font-size: 22px; font-weight: 400; line-height: normal; padding: 5px 0 10px;}
+.space_right .space_user_info .enum  li { border:1px solid #CCCCCC; margin:20px; line-height:33px; background:#428bca; border-radius:5px;  position:relative;}
+.space_right .space_user_info .enum li a { width:100%; display:inline-block; color:#FFFFFF;}
+.space_right .space_user_info .ajax_msg { display:none; background-color:#EEEEEE; width:120px; text-align:center; color:#04e000; position:absolute; left:83px; top:40px; border:1px solid #dddddd;}
+
+/* 收藏列表css */
+.form_table { display: table; border-spacing: 2px; border-color: gray; width: 100%;}
+.form_table .tb_header { background: #eef3f7; height: 30px; line-height: 25px; padding-left: 5px; border-bottom: #d5dfe8 1px solid; border-top: #d5dfe8 1px solid; font-weight: bold }
+.form_table .tb_header th { font-weight: bold;}
+.form_table td { border-bottom: #eee 1px solid; height: 30px; line-height: 25px; }
+.form_table tr.tb_list:hover { background: #FBFFE4; color: #333; }
+.form_table .tb_title { font-weight: bold }
+
+/* 用户设置 */
+.user_edit .tab_menu {  border-bottom:1px solid #DDDDDD;}
+.user_edit .tab_menu li { float:right; width:100px;  border:1px solid #DDDDDD; border-bottom:none; margin-left:4px; line-height:33px; font-size:14px; text-align:center; }
+.tab_menu li a { display:block; color:#428BCA; }
+.tab_menu li a:hover, .tab_menu li.active a { position:relative; bottom:-1px; background-color:#FFFFFF; color:#555555; }
+.tab_menu h2 { float:left; padding-left:20px; font-size:18px; line-height:33px;}
+.user_edit  h3 { background-color:#F7F7F7; padding-left:20px; font-size:16px; line-height:32px; }
+.user_edit #edit_form { padding:20px 0; }
+.user_edit .base_table { float:left; margin-left:5%; width:90%; }
+.base_table tr { line-height:33px; }
+.base_table th, .base_table td{ font-size:14px; padding-bottom:10px;}
+.base_table input { 
+	width:260px;
+	height:33px; 
+	line-height:33px;
+	background-color: #EEEEEE;
+    border-left: 1px solid #666666;
+    border-radius: 3px;
+    border-top: 1px solid #666666;
+    padding: 0 10px;
+}
+.base_table textarea { 
+	width:260px;
+	padding: 10px;
+	overflow-y:auto;
+	background-color: #E5E6E6;
+    border-left: 1px solid #666666;
+    border-radius: 3px;
+    border-top: 1px solid #666666;
+	min-width:260px; max-width:260px; 
+	min-height:80px; max-height:80px; height:80px; }
+.upload_avatar { float:left; margin-left:5%; width:80%;}
+.upload_avatar dt { width:100px; float:left;}
+.upload_avatar .upload_desc { float:left; padding-left:20px;}
+.upload_desc p { line-height:33px;}
+.upload_cut_box { width:300px; float:left;}	
+.submit_cut .upload_btn { float:left; width:80px; height:28px;}
+.btn_text { display:block; height:28px; line-height:28px; border-radius: 4px; font-size: 14px;	background-color: #5CB85C;border-color: #4CAE4C; color:#FFFFFF;	text-align:center;}
+.submit_cut { width:190px; height:90px; margin-top:40px; padding-left:20px; float:left; position:relative; }
+.btn_cut { width:80px; position:absolute; top:50px;}
+.upload_btn .uploadify { position:absolute; top:0; opacity:0; cursor:pointer; filter:alpha(opacity=0);}
+.upload_avatar_status { display:none; position:absolute; left:90px; margin-left:10px; padding-left:20px; }
+.upload_avatar_status_success { background:none;}
+#uploadAvatar { z-index:-1; position:relative; top:-25px; width:80px;}
+	
+#edit_form .submit {	
+	margin-top:20px;
+	margin-left:29%;
+	height:33px;
+	border-radius: 4px; 	
+	font-size: 14px; 
+	background-color: #5CB85C;
+	border-color: #4CAE4C; 
+	width:80px;
+	color:#FFFFFF;
+	text-align:center;
+	cursor:pointer;
+}
+
+/* 修改邮箱 */
+.base_table .send_btn, .base_table .send_txt{ width:100px; }
+.base_table .send_btn { margin-left:20px; border:1px solid #000000; cursor:pointer; color:#F0F0F0; background-color:#666666; }
+#send_msg { color:#F00; }
+.error_message { width:260px; }
+
+/* 重新激活账号 */
+.user_edit .base_active { width:100%; padding:20px;}
+.active_msg { float:left; background-color:#cccccc; line-height:34px; color:555555;}
+.active_btn { float:left;}

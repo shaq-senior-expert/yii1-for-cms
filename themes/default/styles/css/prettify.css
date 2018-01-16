@@ -1,0 +1,57 @@
+.pln{color:#000}@media screen{.str{color:#080}.kwd{color:#008}.com{color:#800}.typ{color:#606}.lit{color:#066}.pun,.opn,.clo{color:#660}.tag{color:#008}.atn{color:#606}.atv{color:#080}.dec,.var{color:#606}.fun{color:red}}@media print,projection{.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}}
+ol.linenums{margin-top:0;margin-bottom:0; border-left:3px solid #6CE26C;}
+li.L0,li.L1,li.L2,li.L3,li.L4,li.L5,li.L6,li.L7,li.L8,li.L9{list-style:decimal outside none; padding-left:1em;}
+li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}
+
+pre.prettyprint {
+	background-color:#eeeeee;
+	border: 0;
+	border-left: 3px solid #6CE26C;	
+	font-size: 1.1em;
+	display: block;
+	font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;	
+	white-space: pre;
+}
+
+/* 增加编辑时代码高亮样式 */
+.content_info {
+    font-size: 10pt;
+}
+.content_info pre {       
+    border:1px dashed #428bca;
+    padding-left:2em;
+    line-height:1.5em;
+    white-space:pre-wrap;
+    white-space:-moz-pre-wrap;
+    white-space:-o-pre-wrap;
+    word-wrap:break-word;
+}
+ 
+.content_info code {
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: nowrap;
+    border: 1px solid #DDD;
+    background-color: #F6F6F6;
+    border-radius: 3px;
+}
+ 
+.content_info pre>code {
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+    border: none;
+    background: transparent;
+}
+ 
+.content_info pre code {
+    background-color: transparent;
+    border: none;
+}
+ 
+.content_info div.ref {border:1px solid #ddd;margin:0 0 10px 0;padding:2px;font-size:9pt;background:#ffe;}
+.content_info div.ref h4 {margin:0;padding:1px 3px;background:#CC9966;color:#fff;font-size:9pt;font-weight:normal;}
+.content_info div.ref .ref_body {margin:0;padding:2px;line-height:20px;color:#666;font-size:9pt;}
+ 
+ 
+.content_info blockquote {margin:15px 10px;border:2px solid #eee;padding:5px 5px 5px 35px;background:#f4f5f7 url('../img/blockquote.gif') no-repeat left top;color:#060;font-size:9pt;}

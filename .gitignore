@@ -1,0 +1,10 @@
+/.settings
+/*.buildpath
+/*.project
+/nbproject/private/
+/nbproject/project.xml
+/nbproject/*.properties
+/*.tgitconfig
+/protected/data/install.lock
+/protected/runtime/*.log
+/.idea

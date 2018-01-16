@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+#wrapper { position:relative; padding-top:100px; }
+.form { width: 700px; margin:0 auto; height:500px;}
+.wrapper_bg { height:800px; width:100%;  background:url(../images/login_02.jpg) no-repeat; position:absolute; top:0; z-index:-2; }
+#login-form { float:left; width: 324px;}
+#login-form .mod_head {	
+	background: none repeat scroll 0 0 #428BCA;
+    border-radius: 10px 10px 0 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;
+    height: 76px;
+    line-height: 76px;
+    padding: 0 40px;    
+}
+
+#login-form .register_btn {
+	background-color: #4BC7EA;    
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+    height: 46px;
+    line-height: 46px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 164px;
+}
+#login-form .mod_body {
+ 	background: none repeat scroll 0 0 #F5F5F5;
+    border-left: 1px solid #C9C9C9;
+    border-right: 1px solid #C9C9C9;
+    padding: 40px 0;    
+}
+#login-form .label_icon_user, #login-form .label_icon_pw { float:left;  display:inline-block; border-radius:5px 0 0 5px; width:43px; height:42px; line-height:42px; text-align:center; background-color:#82C2E1; }
+#login-form .fa_user:before, .fa_tuser:before { font-size:18px; content: "\f007"; color:#FFFFFF; }
+#login-form .fa_tuser:before { margin-right:5px;}
+#login-form .fa_pw:before { font-size:18px; content: "\f084"; color:#FFFFFF;}
+#login-form .mod_footer {
+	background: none repeat scroll 0 0 #E6E6E6;
+    border-color: #EBEBEB;
+    border-image: none;
+    border-radius: 0 0 10px 10px;
+    border-right: 1px solid #C9C9C9;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    height: 71px;
+    line-height: 71px;
+    padding: 0 40px;    
+}
+#login-form input.form-control {
+	float:left;	
+	height:40px;
+	padding-left:10px; 
+	border-color: #CCCCCC;
+    border-image: none;
+    border-radius: 0 5px 5px 0;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    padding-left:10px;
+    margin: 0;
+    width: 198px;
+}
+#login-form ul { width:252px; margin:0 auto; }
+#login-form li { line-height: 38px; margin-bottom: 20px; }
+#login-form li.last { text-align:left; }
+#login_submit {
+	float:right; 
+	border-radius: 4px;    
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;      
+    padding: 6px 12px;    
+	line-height:1.5em;
+    vertical-align: middle;
+    white-space: nowrap;
+	background-color: #5CB85C;
+    border-color: #4CAE4C;
+	min-width:92px;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+.login-radio {
+	width:auto;
+	line-height:normal;
+	vertical-align: middle;
+}
+.forgetpw { color:#428BCA; }
+.login_bg {  
+	background-color:#000000; 
+	border-radius: 10px;
+    height: 409px;    
+	filter:alpha(opacity=20); 
+    opacity: 0.2;
+    position: absolute;    
+    width: 700px;	  
+	z-index:-1; 
+}
+.login_auth { width:376px; float:right; color:#FFFFFF;}
+.login_auth .title { height:76px; line-height:76px;font-weight:bold; font-size:16px; text-align:center;}
+.login_auth .auth_box { padding:60px 10px; background-color:#F5F5F5; border-radius:0 5px 5px 0;}
+.login_list li { float:left; width:79px; margin-right:10px; border:1px solid #DDDDDD;  text-align:center;}
+.login_list li.last { margin-right:0;}
+.login_list li a{ display:block; color:#e6e6e6; padding-top:10px;}
+.login_list li a:hover { background-color:#FFFFFF; color:#FFFFFF;}
+.login_list li a span { display:block; width:80px; background-color:#428bca; }
+.auth_desc { color:#555555; text-indent:2em; margin-top:14px;}
+
+.mod_footer a { font-size:14px; color: #428BCA; }
+.copyright { margin-top:30px; text-align:center;}
+.copyright p { line-height:30px; }
+
+
+
+

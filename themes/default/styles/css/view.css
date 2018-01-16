@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+
+#content { width:1170px; margin:0 auto; text-align:left; margin-bottom:70px; }
+#content .content_left { float:left; width:828px; border:1px solid #DDDDDD; padding:10px 20px; overflow:hidden;}
+#content .content_right { float:right; width:270px; }
+.content_left .list_box h2 { font-size:28px; line-height:33px;}
+.content_left .list_head { float:left; width:70px; text-align:center; }
+.content_left .list_body { float:left; width:770px;}
+.content_left .content_type { width:70px; height:70px; margin-top:20px; background:url(../images/type_text.png) no-repeat left center;}
+.content_left .type_image { background-image:url(../images/type_image.png);}
+.content_left .type_video { background-image:url(../images/type_video.png);}
+.content_left .list_body h2 a{ font-size:18px; font-weight:bold; }
+.content_left .view_info { padding:18px 0 30px 0;}
+.content_left .view_info span { margin-right:15px; }
+.content_left .view_info em { color:#e2534b; }
+.content_left .view_info .tags { padding-left:23px; background:url(../images/ico_tag.png) no-repeat left center; }
+.content_left .view_info .tags em a { padding:3px 4px; background-color:#7f8c8c; border-radius:5px; color:#FFFFFF; text-decoration:none; }
+.content_left .view_info .tags em a:hover { background-color:#e2534b; }
+
+.content_left .view_info .views { padding-left:23px; background:url(../images/ico_view.png) no-repeat left center; }
+.content_left .view_info .downs { padding-left:23px; background:url(../images/ico_down.png) no-repeat left center; }
+.content_left .view_info .collects { padding-left:23px; background:url(../images/ico_collect.png) no-repeat left center; position:relative; }
+.content_left .view_info .attentions { padding-left:23px; background:url(../images/ico_attention.jpg) no-repeat left center; position:relative;  }
+.content_left .view_info .ajax_msg { display:none; background-color:#428BCA; width:90px; text-align:center; color:#FFFFFF; position:absolute; left:0; top:-30px; border:1px solid #dddddd;}
+.content_left .content_info { margin-bottom:20px; }
+.content_left .share_box { background-color:#ececec; padding:6px 12px;}
+.content_left .share_box strong { font-size:14px;}
+.content_left .share_box ul { list-style:none;}
+.content_left .share_box ul li { float:left; margin:0 10px; }
+
+#comment_iframe { border-top:1px dashed #428BCA; }
+
+/* 图集幻灯片 */
+#show_pics { width:auto; overflow:hidden; position:relative; border:1px solid #EEEEEE; padding:10px 0; maring-bottom:10px;}
+#show_pics li {  display:none; width:850px; float:left; overflow:hidden;  text-align:center; list-style:none;}
+#show_pics .prev_btn { width:32px; height:50px; background:url(../images/foc_btn.png) no-repeat left 0; position:absolute; left:0; top:45%; z-index:99;}
+#show_pics .next_btn { left:auto; right:0; background-position:right 0;}
+#show_pics li img { cursor:pointer; max-width:730px; max-height:730px;}
+.small_pics {  border:1px solid #EEEEEE; margin-bottom:20px; border-top:0; padding:5px; overflow-x:auto; overflow-y:hidden;}
+.small_pics li { float:left; width:100px; height:100px; margin-right:10px; list-style:none;}
+.small_pics li img { cursor:pointer;}
+
+.content_right .category { margin-bottom:30px; }
+.content_right .category dt { height:34px; width:150px; line-height:34px; margin-bottom:30px; border-radius:4px; font-size:16px; font-weight:bold; text-align:center; border:1px solid #666666; color:#555555;}
+.content_right .category dd { padding-left:16px; margin-bottom:10px; background:url(../images/ico_list_blue.png) no-repeat left center;}
+.content_right .recent_post dd { background-image:url(../images/ico_list_grey.png);}
+
+.content_right .tag dd { float:left; background:none; padding:0; margin-right:9px; margin-bottom:10px; }
+.content_right .tag dd a { display:block; padding:0 8px; line-height:25px; background-color:#7f8c8c; border-radius:5px; color:#FFFFFF; text-decoration:none; }
+.content_right .tag dd a:hover { background-color:#e2534b; }
+.content_right .tag .tag_more { background:none; }
+.content_right .tag .tag_more a { background:none; color:#428BCA; }
+.content_right .tag .tag_more a:hover { background:none;  }
+
+a { color:#555555;}
+a:hover { text-decoration:underline; }
+
+.content_info a { color:#428bca;}
+.content_info ul { list-style:inherit;}
+
+/* 文章详情 */
+.content_info ul { list-style:inside disc none;}
+.content_info blockquote { margin:auto; padding:2em 4em; padding-right:0;}
+blockquote {
+	background:#f9f9f9;
+	border-left:5px solid #ccc;
+	margin:1.5em 10px;
+	padding:.5em 10px;
+	quotes:"\201C""\201D""\2018""\2019";
+	font-family:"Monaco,DejaVu Sans Mono,Bitstream Vera Sans Mono,Consolas,Courier New,monospace";
+}
+blockquote:before {
+	color:#ccc;
+	content:open-quote;
+	font-size:4em;
+	line-height:.1em;
+	margin-right:.25em;
+	vertical-align:-.4em;
+ }
+.content_info em, .content_info th { font-size:1.5em;}
+.content_info p { font-size:14px; line-height:1.8em;}
+.description { background-color:#ececec; border: 1px solid #dcdcdc; color: #333333;
+    font-size: 14px; line-height: 20px; padding: 7px 15px; margin-bottom:10px;}
+
+/* 图集详情 */
+.image_info .list_body { float:none; width:auto;}
+#show_pics ul { width:730px; margin:0 auto; }
+#show_pics ul li { width:100%;}
+
+/* 软件详情 */
+.soft_info { margin-top:20px; border-top:1px dashed #CCCCCC; }
+.info_head { margin:20px 0;  border-bottom:1px dashed #CCCCCC;}
+.info_left { float:left; width:400px; height:350px; overflow:hidden;}
+.info_left .no_cover { background-color:#F0F2F3; text-align:center; line-height:200px;}
+.info_right { float:right; width:310px; height:400px; font-size:14px;}
+.info_right .soft_attr li { line-height:30px; list-style:inside circle;}
+.info_right .share_box { margin:10px 0; padding-left:0;}
+.info_desc h1 { font-weight:bold; font-size:16px; padding:8px 0; color:#666666; }
+.star_empty, .star_full { display:inline-block;width:100px; height:20px; background:url(../images/ico_stars.png) no-repeat left 0;}
+.star_full { background-position:left -27px;}
+.download_now , .download_quick{ width:134px; display:block; height:44px; background:url(../images/download_btn.png) no-repeat left 0;}
+.download_quick { background-position:left -44px;}
+.download_now:hover { background-position:-134px 0;}
+.download_quick:hover { background-position:-134px -44px;}
+
+/* 视频详情 */
+.video_info .info_left { width:240px; overflow:hidden; margin-right:86px;}
+.video_info .info_score { float:left; }
+
+/* 上一篇下一篇样式 */
+.relation li { line-height:30px; list-style:none; }
+.relation li a { color:#0000FF;}
+
